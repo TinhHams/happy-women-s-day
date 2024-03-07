@@ -1,0 +1,14 @@
+.text-container {
+    width: 100%;
+    margin-top: 420px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f594b8;
+}
+
+.wishes {
+    color: #122139;
+}
