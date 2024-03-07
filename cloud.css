@@ -1,0 +1,35 @@
+.cloud {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.cloud-img {
+    width: 20%;
+    position: absolute;
+    opacity: 0;
+}
+
+.cloud1 {
+    left: 40px;
+    top: 40px;
+    animation: cloudMove 20s infinite linear;
+}
+
+.cloud2 {
+    right: 400px;
+    bottom: 10px;
+    animation: cloudMove 14s infinite linear;
+    animation-delay: 1s;
+}
+
+@keyframes cloudMove {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 0.4;
+    }
+}
