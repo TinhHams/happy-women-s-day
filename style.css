@@ -5,8 +5,9 @@ body {
     overflow: hidden;
     background: #122139;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
+    position: relative;
 }
 
 .container {
