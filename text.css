@@ -12,3 +12,21 @@
 .wishes {
     color: #122139;
 }
+
+.toAll {
+    opacity: 0;
+    font-size: 2rem;
+}
+
+.show {
+    animation: showText 4s forwards ease;
+}
+
+@keyframes showText {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

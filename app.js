@@ -1,3 +1,4 @@
+const toAll = document.querySelector(".toAll");
 const text = document.querySelector(".wishes");
 const strText = text.textContent;
 const splitText = strText.split("");
@@ -15,6 +16,7 @@ function onTick() {
     span.style.fontSize = "2rem";
     char++;
     if (char === splitText.length) {
+        showWishes();
         complete();
         return;
     }
@@ -24,3 +26,8 @@ function complete() {
     clearInterval(timer);
     timer = null;
 }
+
+function showWishes() {
+    toAll.classList.add("show");
+}
+
